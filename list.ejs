@@ -1,7 +1,7 @@
 <html>
     
     <head>
-        <title>ALL TASKS</title>
+        <title>List view</title>
         <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -10,13 +10,13 @@
   
     </head>
     <body>
-        <h1>ALL TASKS</h1>
-    <div id ="task-table">
+        <h1>List View</h1>
+    <div id ="List-table">
         
         <ul>
-          <% for ( var i = 0; i< tasks.length; i++){ %>
+          <% for ( var i = 0; i< list.length; i++){ %>
           
-            <li href='/task/ +  <%= tasks[i].id %>'><%= tasks[i].task-name %></li><br>
+            <li href='/List/ +  <%= lists[i].id %>'><%= tasks[i].List-view %></li><br>
             
          
                   
